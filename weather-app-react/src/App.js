@@ -8,6 +8,7 @@ function App() {
   const [photos, setPhotos] = useState([]);
   useEffect(() => {
     ifClicked();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function ifClicked() {
